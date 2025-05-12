@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #fafafd;
+  --dark: #323137;
+  --faded-dark: #32313740;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+p {
+  text-align: center;
+  font-family: "Titan One";
+  color: var(--dark);
+  font-size: 12px;
+}
+
+.logo {
+  font-family: "Rubik Puddles";
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.form {
+  width: 300px;
+  height: 400px;
+  border: 1px solid var(--faded-dark);
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#drop-area {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  border-radius: 16px;
+  border: 2px dashed var(--faded-dark);
+  padding-top: 45px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#drop-area:hover {
+  cursor: pointer;
+}
+
+.btn {
+  margin: 25px;
+  width: 160px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+  background-color: var(--dark);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn p {
+  color: var(--bg-color);
+  font-size: 18px;
+}
+
+/* Improved Loading Animation */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.loading-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: var(--dark);
+  opacity: 0.4;
+  animation: bounce 0.6s ease-in-out infinite alternate;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+#loading-text {
+  font-size: 14px;
+  color: var(--dark);
+  text-align: center;
+  max-width: 80%;
+}
