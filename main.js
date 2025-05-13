@@ -7,14 +7,14 @@ const searchBtn = document.querySelector(".btn");
 
 // Funny loading texts for animation
 const funnyLoadingTexts = [
-  "Finding your doppelgänger in the multiverse...",
-  "Scanning billions of faces...",
-  "Checking if you're secretly famous...",
-  "Comparing you to historical figures...",
-  "Analyzing your unique facial features...",
-  "Searching for your long-lost twin...",
-  "Scouring the internet for your clone...",
-]; 
+  "no be gadus be this...",
+  "yeee see spec..",
+  "drop dead gorgeous, period!!...",
+  "sope purr...",
+  "you've got beautiful eyes...",
+  "I'd ask you out if I wasn't an AI...",
+  "creator thinks you look great ;)...",
+];
 
 // Image preview functionality
 fileInput.addEventListener("change", (e) => {
