@@ -143,3 +143,7 @@ p {
   text-align: center;
   max-width: 80%;
 }
+
+#shape {
+  margin-top: 10px;
+}

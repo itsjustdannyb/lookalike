@@ -14,7 +14,7 @@ const funnyLoadingTexts = [
   "Analyzing your unique facial features...",
   "Searching for your long-lost twin...",
   "Scouring the internet for your clone...",
-];
+]; 
 
 // Image preview functionality
 fileInput.addEventListener("change", (e) => {
