@@ -51,6 +51,10 @@ p {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+.drop-text {
+  margin-bottom: 25px;
+}
+
 #drop-area {
   position: relative;
   width: 100%;

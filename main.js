@@ -14,6 +14,13 @@ const funnyLoadingTexts = [
   "you've got beautiful eyes...",
   "I'd ask you out if I wasn't an AI...",
   "creator thinks you look great ;)...",
+  "Jesus loves you <3 ...",
+  "your face card deadly o ...",
+  "the sun's jealous of your glow..",
+  "what skincare do you use...",
+  "I still dey search o...",
+  "this your face unique o...",
+  "face card never declines...",
 ];
 
 // Image preview functionality
